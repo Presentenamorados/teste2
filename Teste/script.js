@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("load", function () {
     function animateWithVelocityAndFallback(el, props, options) {
     const computedProps = {};
     if ('translateY' in props) {
